@@ -1,0 +1,13 @@
+{
+    "workbench.activityBar.visible": true,
+    "window.zoomLevel": 0,
+    "editor.wordWrap": false,
+    "workbench.welcome.enabled": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true,
+        "**/ts-node": true,
+        "**/ts-node-*": true
+    }
+}

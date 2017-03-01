@@ -1,0 +1,14 @@
+[
+    {"key": "cmd+d", "command": "editor.action.deleteLines"},
+    { "key": "cmd+shift+c", "command": "editor.action.commentLine", "when": "editorTextFocus && !editorReadonly" },
+    { "key": "cmd+shift+r", "command": "workbench.action.files.revealActiveFileInWindows" },
+    { "key": "ctrl+m", "command": "editor.action.jumpToBracket", "when": "editorTextFocus" },
+    { "key": "cmd+shift+s", "command": "workbench.action.files.saveAll" },
+    { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAs" },
+    {"key": "ctrl+w", "command": "workbench.action.terminal.kill"},
+    {"key": "ctrl+tab", "command": "workbench.action.terminal.focusNext"},
+    {"key": "ctrl+shift+tab", "command": "workbench.action.terminal.focusPrevious"},
+    {"key": "cmd+right", "command": "workbench.action.terminal.focusNext", "when": "terminalFocus"},
+    {"key": "cmd+left", "command": "workbench.action.terminal.focusPrevious", "when": "terminalFocus"},
+    {"key": "alt+space", "command": "workbench.action.terminal.focus"}
+]

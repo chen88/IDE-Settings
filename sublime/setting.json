@@ -1,0 +1,16 @@
+{
+    "folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"coverage-html"
+	],
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"BracketHighlighter",
+		"Vintage"
+	]
+}

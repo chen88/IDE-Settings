@@ -1,0 +1,10 @@
+[
+	{ "keys": ["super+shift+s"], "command": "save_all" },
+	{ "keys": ["super+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["shift+tab"], "command": "unindent"},
+	{ "keys": ["super+shift+c"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+r"], "command": "reveal_in_side_bar" },
+	{ "keys": ["ctrl+f"], "command": "fold" },
+	{ "keys": ["ctrl+d"], "command": "unfold" },
+	 { "keys": ["super+shift+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} }
+]
