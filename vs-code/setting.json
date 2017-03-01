@@ -1,7 +1,9 @@
+// Place your settings in this file to overwrite the default settings
 {
     "workbench.activityBar.visible": true,
     "window.zoomLevel": 0,
     "editor.wordWrap": false,
+    "editor.fontSize": 10,
     "workbench.welcome.enabled": false,
     "search.exclude": {
         "**/node_modules": true,
