@@ -7,10 +7,14 @@
     { "key": "cmd+shift+s", "command": "workbench.action.files.saveAll" },
     { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAs" },
     {"key": "ctrl+w", "command": "workbench.action.terminal.kill"},
-    {"key": "ctrl+tab", "command": "workbench.action.terminal.focus"},
+    {"key": "cmd+t", "command": "workbench.action.terminal.focus"},
     {"key": "ctrl+shift+tab", "command": "workbench.action.terminal.focusPrevious"},
     {"key": "cmd+right", "command": "workbench.action.terminal.focusNext", "when": "terminalFocus"},
     {"key": "cmd+left", "command": "workbench.action.terminal.focusPrevious", "when": "terminalFocus"},
     {"key": "alt+space", "command": "workbench.action.terminal.focus"},
-    {"key": "cmd+r", "command": "workbench.files.action.showActiveFileInExplorer"}
+    {"key": "cmd+r", "command": "workbench.files.action.showActiveFileInExplorer"},
+    {"key": "cmd+k u", "command": "editor.action.transformToUppercase"},
+    {"key": "cmd+k l", "command": "editor.action.transformToLowercase"},
+    { "key": "cmd+k", "command": "workbench.action.terminal.clear", "when": "terminalFocus" },
+    { "key": "ctrl+t", "command": "workbench.action.terminal.new" }
 ]
