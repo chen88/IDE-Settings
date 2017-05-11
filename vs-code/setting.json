@@ -27,7 +27,6 @@
         "**/node_modules/babel*": true
     },
     "typescript.check.tscVersion": false,
-    "workbench.colorTheme": "Monokai",
     "workbench.colorCustomizations": {
         "tab.inactiveForeground": "#e0e0e0",
         "tab.inactiveBackground": "#313131"
