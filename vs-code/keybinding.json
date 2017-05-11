@@ -27,5 +27,9 @@
     {
         "key": "ctrl+shift+g",
         "command": "-workbench.view.scm"
+    },
+    {
+        "key": "cmd+q",
+        "command": ""
     }
 ]
