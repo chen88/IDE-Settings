@@ -1,0 +1,35 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {"key": "ctrl+d", "command": "editor.action.deleteLines"},
+    { "key": "ctrl+shift+c", "command": "editor.action.commentLine", "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+shift+r", "command": "workbench.action.files.revealActiveFileInWindows" },
+    { "key": "ctrl+m", "command": "editor.action.jumpToBracket", "when": "editorTextFocus" },
+    { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAll" },
+    { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAs" },
+    {"key": "ctrl+w", "command": "workbench.action.terminal.kill", "when": "terminalFocus"},
+    {"key": "ctrl+t", "command": "workbench.action.terminal.focus"},
+    {"key": "ctrl+shift+tab", "command": "workbench.action.terminal.focusPrevious"},
+    {"key": "ctrl+right", "command": "workbench.action.terminal.focusNext", "when": "terminalFocus"},
+    {"key": "ctrl+left", "command": "workbench.action.terminal.focusPrevious", "when": "terminalFocus"},
+    {"key": "alt+space", "command": "workbench.action.terminal.focus"},
+    {"key": "ctrl+r", "command": "workbench.files.action.showActiveFileInExplorer"},
+    {"key": "ctrl+k u", "command": "editor.action.transformToUppercase"},
+    {"key": "ctrl+k l", "command": "editor.action.transformToLowercase"},
+    { "key": "ctrl+k", "command": "workbench.action.terminal.clear", "when": "terminalFocus" },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "shift+ctrl+g",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm"
+    },
+    {
+        "key": "ctrl+q",
+        "command": ""
+    }
+]
