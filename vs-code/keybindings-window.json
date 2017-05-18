@@ -5,7 +5,6 @@
     { "key": "ctrl+shift+r", "command": "workbench.action.files.revealActiveFileInWindows" },
     { "key": "ctrl+m", "command": "editor.action.jumpToBracket", "when": "editorTextFocus" },
     { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAll" },
-    { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAs" },
     {"key": "ctrl+w", "command": "workbench.action.terminal.kill", "when": "terminalFocus"},
     {"key": "ctrl+t", "command": "workbench.action.terminal.focus"},
     {"key": "ctrl+shift+tab", "command": "workbench.action.terminal.focusPrevious"},
