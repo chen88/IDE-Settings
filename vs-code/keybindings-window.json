@@ -30,5 +30,21 @@
     {
         "key": "ctrl+q",
         "command": ""
+    },
+    {
+        "key": "ctrl+win+right",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+win+left",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-workbench.action.previousEditor"
     }
 ]
