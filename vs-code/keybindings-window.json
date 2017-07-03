@@ -170,5 +170,25 @@
     {
         "key": "ctrl+3",
         "command": "-workbench.action.focusThirdEditorGroup"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "cursorHomeSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+home",
+        "command": "-cursorHomeSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "cursorEndSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+end",
+        "command": "-cursorEndSelect",
+        "when": "editorTextFocus"
     }
 ]
