@@ -10,7 +10,8 @@
     {"key": "ctrl+shift+tab", "command": "workbench.action.terminal.focusPrevious"},
     {"key": "ctrl+right", "command": "workbench.action.terminal.focusNext", "when": "terminalFocus"},
     {"key": "ctrl+left", "command": "workbench.action.terminal.focusPrevious", "when": "terminalFocus"},
-    {"key": "alt+space", "command": "workbench.action.terminal.focus"},
+    {"key": "f1", "command": "workbench.action.terminal.focus"},
+    { "key": "f2", "command": "workbench.action.terminal.clear"},
     {"key": "ctrl+r", "command": "workbench.files.action.showActiveFileInExplorer"},
     {"key": "ctrl+k u", "command": "editor.action.transformToUppercase"},
     {"key": "ctrl+k l", "command": "editor.action.transformToLowercase"},
@@ -190,5 +191,24 @@
         "key": "shift+end",
         "command": "-cursorEndSelect",
         "when": "editorTextFocus"
-    }
+    },
+    { 
+        "key": "ctrl+k ctrl+o",         
+        "command": "workbench.action.files.openFile"
+    },
+    { 
+        "key": "ctrl+o",         
+        "command": "workbench.action.files.openFolder" 
+    },
+    { 
+        "key": "alt+r",                
+        "command": "workbench.action.openRecent" },
+    { 
+        "key": "ctrl+q",              
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+n",
+        "command": "extension.generateGetterAndSetters"
+    },
 ]
