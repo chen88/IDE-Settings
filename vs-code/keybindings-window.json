@@ -212,4 +212,33 @@
         "key": "alt+n",
         "command": "extension.generateGetterAndSetters"
     },
+    {
+        "key": "f3",
+        "command": "workbench.action.debug.start",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "f4",
+        "command": "workbench.action.debug.restart",
+        "when": "default"
+    },
+    {
+        "key": "f4",
+        "command": "workbench.action.debug.restart",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "-workbench.action.debug.restart",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "workbench.action.closeOtherEditors"
+    }
 ]
