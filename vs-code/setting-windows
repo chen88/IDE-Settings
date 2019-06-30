@@ -15,7 +15,8 @@
     ],
     "extensions.ignoreRecommendations": true,
     "editor.codeActionsOnSave": {
-        "source.organizeImports": false
+        "source.organizeImports": false,
+        "source.fixAll.tslint": true
     },
     "files.exclude": {
         "**/.git": true,
@@ -27,7 +28,8 @@
         "**/node_modules/babel*": true,
         "**/src-scout/src-ranger": true,
         "**/src-scout/src-common-wp": true,
-        "**/src-ranger/src-common-wp": true
+        "**/src-ranger/src-common-wp": true,
+        "**/.tmp": true
     },
     "javascript.preferences.quoteStyle": "single",
     "typescript.preferences.quoteStyle": "single",
@@ -42,9 +44,13 @@
     "debug.openDebug": "openOnDebugBreak",
     "search.exclude": {
         "**/node_modules": true,
-        "**/bower_components": true
+        "**/bower_components": true,
+        "**/dist": true,
+        "**/web-dist": true
     },
     "search.useIgnoreFiles": false,
     "workbench.statusBar.feedback.visible": false,
-    "workbench.view.alwaysShowHeaderActions": true
+    "workbench.view.alwaysShowHeaderActions": true,
+    "editor.suggest.localityBonus": true,
+    "typescript.updateImportsOnFileMove.enabled": "always"
 }
