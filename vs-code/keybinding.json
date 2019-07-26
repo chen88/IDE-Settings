@@ -48,21 +48,21 @@
         "key": "ctrl+pageup",
         "command": "-workbench.action.previousEditor"
     },
-    {
-        "key": "alt+right",
-        "command": "cursorEnd",
-        "when": "editorTextFocus"
-    },
+  //   {
+  //       "key": "alt+right",
+  //       "command": "cursorEnd",
+  //       "when": "editorTextFocus"
+  //   },
     {
         "key": "end",
         "command": "cursorEnd",
         "when": "editorTextFocus"
     },
-    {
-        "key": "alt+left",
-        "command": "cursorHome",
-        "when": "editorTextFocus"
-    },
+  //   {
+  //       "key": "alt+left",
+  //       "command": "cursorHome",
+  //       "when": "editorTextFocus"
+  //   },
     {
         "key": "home",
         "command": "cursorHome",
@@ -141,14 +141,6 @@
         "command": "-workbench.action.openEditorAtIndex9"
     },
     {
-        "key": "ctrl+0",
-        "command": "workbench.action.openLastEditorInGroup"
-    },
-    {
-        "key": "alt+0",
-        "command": "-workbench.action.openLastEditorInGroup"
-    },
-    {
         "key": "alt+1",
         "command": "workbench.action.focusFirstEditorGroup"
     },
@@ -180,33 +172,25 @@
         "key": "ctrl+4",
         "command": "-workbench.action.focusFourthEditorGroup"
     },
-    {
-        "key": "shift+alt+left",
-        "command": "cursorHomeSelect",
-        "when": "editorTextFocus"
-    },
+  //   {
+  //       "key": "shift+alt+left",
+  //       "command": "cursorHomeSelect",
+  //       "when": "editorTextFocus"
+  //   },
     {
         "key": "shift+home",
         "command": "-cursorHomeSelect",
         "when": "editorTextFocus"
     },
-    {
-        "key": "shift+alt+right",
-        "command": "cursorEndSelect",
-        "when": "editorTextFocus"
-    },
+  //   {
+  //       "key": "shift+alt+right",
+  //       "command": "cursorEndSelect",
+  //       "when": "editorTextFocus"
+  //   },
     {
         "key": "shift+end",
         "command": "-cursorEndSelect",
         "when": "editorTextFocus"
-    },
-    { 
-        "key": "ctrl+k ctrl+o",         
-        "command": "workbench.action.files.openFile"
-    },
-    { 
-        "key": "ctrl+o",         
-        "command": "workbench.action.files.openFolder" 
     },
     { 
         "key": "alt+r",                
@@ -251,5 +235,19 @@
     {
         "key": "ctrl+shift+a",
         "command": "git.openChange"
-    }
-]
+  },
+  {
+      "key": "cmd+w",
+      "command": "-workbench.action.closeWindow",
+      "when": "!editorIsOpen && !multipleEditorGroups"
+  },
+  {
+      "key": "cmd+w", 
+      "command": "workbench.action.terminal.kill",
+      "when": "terminalFocus"
+  },
+  {
+      "key": "shift+cmd+w",
+      "command": "-workbench.action.closeWindow"
+  }
+  ]
