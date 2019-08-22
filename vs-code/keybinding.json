@@ -11,6 +11,8 @@
     {"key": "ctrl+shift+tab", "command": "workbench.action.terminal.focusPrevious"},
     {"key": "cmd+right", "command": "workbench.action.terminal.focusNext", "when": "terminalFocus"},
     {"key": "cmd+left", "command": "workbench.action.terminal.focusPrevious", "when": "terminalFocus"},
+    {"key": "f1", "command": "workbench.action.terminal.focus"},
+    {"key": "f2", "command": "workbench.action.terminal.clear"},
     {"key": "alt+space", "command": "workbench.action.terminal.focus"},
     {"key": "cmd+r", "command": "workbench.files.action.showActiveFileInExplorer"},
     {"key": "cmd+k u", "command": "editor.action.transformToUppercase"},
