@@ -29,7 +29,8 @@
         "**/src-scout/src-ranger": true,
         "**/src-scout/src-common-wp": true,
         "**/src-ranger/src-common-wp": true,
-        "**/.tmp": true
+        "**/.tmp": true,
+        "**/node_modules/@types/selenium-webdriver": true
     },
     "javascript.preferences.quoteStyle": "single",
     "typescript.preferences.quoteStyle": "single",
@@ -46,11 +47,14 @@
         "**/node_modules": true,
         "**/bower_components": true,
         "**/dist": true,
-        "**/web-dist": true
+        "**/web-dist": true,
+        "**/node_modules/@types/selenium-webdriver": true
     },
     "search.useIgnoreFiles": false,
     "workbench.statusBar.feedback.visible": false,
     "workbench.view.alwaysShowHeaderActions": true,
     "editor.suggest.localityBonus": true,
-    "typescript.updateImportsOnFileMove.enabled": "always"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.blame.ignoreWhitespace": true,
+    "gitlens.currentLine.enabled": false
 }
