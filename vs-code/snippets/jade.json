@@ -23,5 +23,16 @@
 			"li.dropdown-item(value=\"'\\$gte'\") &ge;"
 		],
 		"description": "Dropdown list of comparison symbols"
+	},
+	"Stop Propagation": {
+		"prefix": "_eventStopPropagation",
+		"body": [
+			"\\$event.stopPropagation();"
+		],
+		"description": "Stop propagation for angular"
+	},
+	"Button": {
+		"prefix": "_btn",
+		"body": "button.btn.btn-primary(type=\"button\")"
 	}
 }
