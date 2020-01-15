@@ -37,5 +37,10 @@
 		"prefix": "_u",
 		"body": ["import * as uuid from 'uuid'"],
 		"description": "Import uuid"
+	},
+	"react": {
+		"prefix": "_r",
+		"body": ["import React from 'react'"],
+		"description": "Import react"
 	}
 }
